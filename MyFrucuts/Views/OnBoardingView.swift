@@ -11,6 +11,7 @@ struct OnBoardingView: View {
 
     var fruitsDataL = fruitsData.shuffled()
 
+
     var body: some View {
         TabView {
             ForEach(fruitsDataL[0..<5]) { item in
